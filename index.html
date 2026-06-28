@@ -3,114 +3,19 @@
 <head>
   <meta charset="UTF-8">
   <title>Odin Recipes</title>
-  <style>
-    p {
-      width: 400px;
-      margin: 0 0 30px;
-    }
-
-    .mie-ayam-recipe {
-      padding: 10px 10px;
-      color: rgb(20, 20, 20);
-      background-color: white;
-      border-radius: 8px;
-      font-weight: 550;
-      font-size: 12px;
-      cursor: pointer;
-      transition-duration: 0.3s;
-      border-color: rgb(175, 175, 175);
-      border-width: 1px;
-      border-style: solid;
-      text-decoration: none;
-      font-family: Arial;
-    }
-
-    .mie-ayam-recipe:hover {
-      background-color: rgb(233, 148, 3);
-      color: white;
-      border-color: rgb(233, 148, 3);
-      box-shadow: 0 5px 10px rgba(128, 128, 128, 0.343);
-      padding: 10px 15px;
-    }
-
-    .mie-ayam-recipe:active {
-      transform: scale(0.979);
-      background-color: rgb(251, 179, 44);
-      border-color: rgb(251, 179, 44);
-    }
-
-    .nasi-goreng-recipe {
-      padding: 10px 10px;
-      color: rgb(20, 20, 20);
-      background-color: white;
-      border-radius: 8px;
-      font-weight: 550;
-      font-size: 12px;
-      cursor: pointer;
-      transition-duration: 0.3s;
-      border-color: rgb(175, 175, 175);
-      border-width: 1px;
-      border-style: solid;
-      text-decoration: none;
-      font-family: Arial;
-    }
-
-    .nasi-goreng-recipe:hover {
-      background-color: rgb(233, 148, 3);
-      color: white;
-      border-color: rgb(233, 148, 3);
-      box-shadow: 0 5px 10px rgba(128, 128, 128, 0.343);
-      padding: 10px 15px;
-    }
-
-    .mie-goreng-recipe:active {
-      transform: scale(0.979);
-      background-color: rgb(251, 179, 44);
-      border-color: rgb(251, 179, 44);
-    }
-
-    .rendang-recipe {
-      padding: 10px 10px;
-      color: rgb(20, 20, 20);
-      background-color: white;
-      border-radius: 8px;
-      font-weight: 550;
-      font-size: 12px;
-      cursor: pointer;
-      transition-duration: 0.3s;
-      border-color: rgb(175, 175, 175);
-      border-width: 1px;
-      border-style: solid;
-      text-decoration: none;
-      font-family: Arial;
-    }
-
-    .rendang-recipe:hover {
-      background-color: rgb(233, 148, 3);
-      color: white;
-      border-color: rgb(233, 148, 3);
-      box-shadow: 0 5px 10px rgba(128, 128, 128, 0.343);
-      padding: 10px 15px;
-    }
-
-    .rendang-recipe:active {
-      transform: scale(0.979);
-      background-color: rgb(251, 179, 44);
-      border-color: rgb(251, 179, 44);
-    }
-  </style>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <div class="box">
+    <h1>Odin Recipes</h1>
+    
+    <p>Here, you will learn how to make Indonesian foods by the recipe we already created. Click the button below to learn more which food you want to learn.</p>
+    
+    <a href="./recipes/mie-ayam.html"><button class="mie-ayam-recipe">Mie Ayam Recipe</button></a>
 
-  <h1>Odin Recipes</h1>
-  
-  <p>Here, you will learn how to make Indonesian foods by the recipe we already created. Click the button below to learn more which food you want to learn.</p>
-  
-  <a class="mie-ayam-recipe" href="./recipes/mie-ayam.html">Mie Ayam Recipe</a>
+    <a href="./recipes/nasi-goreng.html"><button class="nasi-goreng-recipe">Nasi Goreng Recipe</button></a>
 
-  <a class="nasi-goreng-recipe" href="./recipes/nasi-goreng.html">Nasi Goreng Recipe</a>
-
-  <a class="rendang-recipe" href="./recipes/rendang.html">Rendang recipe</a>
-
+    <a href="./recipes/rendang.html"><button class="rendang-recipe">Rendang recipe</button></a>
+  </div>
 </body>
 </html>
