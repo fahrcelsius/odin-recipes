@@ -4,12 +4,19 @@ body {
 
 .box {
   padding: 15px;
-  margin: auto;
+  margin: 200px auto 0;
   outline: 1px;
   background-color: lightblue;
   width: 400px;
   border-radius: 10px;
   box-shadow: 0 10px 16px 2px rgba(171, 171, 171, 0.333);
+  border: 2px solid lightblue;
+  transition-duration: 0.3s;
+  color: rgb(2, 55, 109);
+}
+
+.box:hover {
+  border: 2px solid rgb(117, 177, 197);
 }
 
 h1 {
@@ -21,9 +28,9 @@ p {
   margin: 0 0 30px;
 }
 
-.mie-ayam-recipe {
+button {
   padding: 10px 10px;
-  color: rgb(20, 20, 20);
+  color: rgb(2, 55, 109);
   background-color: white;
   border-radius: 8px;
   font-weight: 550;
@@ -37,7 +44,7 @@ p {
   font-family: Arial;
 }
 
-.mie-ayam-recipe:hover {
+button:hover {
   background-color: rgb(233, 148, 3);
   color: white;
   border-color: rgb(233, 148, 3);
@@ -45,67 +52,7 @@ p {
   padding: 10px 15px;
 }
 
-.mie-ayam-recipe:active {
-  transform: scale(0.979);
-  background-color: rgb(251, 179, 44);
-  border-color: rgb(251, 179, 44);
-}
-
-.nasi-goreng-recipe {
-  padding: 10px 10px;
-  color: rgb(20, 20, 20);
-  background-color: white;
-  border-radius: 8px;
-  font-weight: 550;
-  font-size: 12px;
-  cursor: pointer;
-  transition-duration: 0.3s;
-  border-color: rgb(175, 175, 175);
-  border-width: 1px;
-  border-style: solid;
-  text-decoration: none;
-  font-family: Arial;
-}
-
-.nasi-goreng-recipe:hover {
-  background-color: rgb(233, 148, 3);
-  color: white;
-  border-color: rgb(233, 148, 3);
-  box-shadow: 0 5px 10px rgba(128, 128, 128, 0.343);
-  padding: 10px 15px;
-}
-
-.mie-goreng-recipe:active {
-  transform: scale(0.979);
-  background-color: rgb(251, 179, 44);
-  border-color: rgb(251, 179, 44);
-}
-
-.rendang-recipe {
-  padding: 10px 10px;
-  color: rgb(20, 20, 20);
-  background-color: white;
-  border-radius: 8px;
-  font-weight: 550;
-  font-size: 12px;
-  cursor: pointer;
-  transition-duration: 0.3s;
-  border-color: rgb(175, 175, 175);
-  border-width: 1px;
-  border-style: solid;
-  text-decoration: none;
-  font-family: Arial;
-}
-
-.rendang-recipe:hover {
-  background-color: rgb(233, 148, 3);
-  color: white;
-  border-color: rgb(233, 148, 3);
-  box-shadow: 0 5px 10px rgba(128, 128, 128, 0.343);
-  padding: 10px 15px;
-}
-
-.rendang-recipe:active {
+button:active {
   transform: scale(0.979);
   background-color: rgb(251, 179, 44);
   border-color: rgb(251, 179, 44);
